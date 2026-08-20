@@ -70,9 +70,14 @@ documento HTML, CSS, JavaScript, imágenes, fuentes u otros.
 
 Complete la tabla:
 
-  Recurso   Tipo   Dominio     Tamaño
-  --------- ------ --------- --------
-                             
+Recurso               Dominio                Tipo       Tamaño
+---------           -----------              -----      --------
+
+translate_24dp.png	gstatic.com		         png		1.8 kb
+style.css		    itm.edu.co		         css		8.5 kb
+analytics.js		google-analytics.com	 js		    52.3 kb
+tr/			        Facebook.com		     doc		0.3 kb
+fa-solid-900.woff2	use.fontawesome.co	     Font		158 kb                            
                              
                              
                              
