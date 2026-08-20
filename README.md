@@ -83,7 +83,7 @@ fa-solid-900.woff2	use.fontawesome.co	     Font		158 kb
                              
                              
 
-**Total de solicitudes observadas:** `_____`
+**Total de solicitudes observadas:** `5`
 
 ## Evidencia
 
@@ -105,7 +105,8 @@ Inclúyala aquí:
 
 > Escriba aquí su respuesta.
 
-------------------------------------------------------------------------
+Cada solicitud se encarga de algún funcionamiento de la página, tanto estético como interactivo/informativo.
+Al ser una página universitaria que contiene mucha información útil, genera muchas solicitudes para suplir todas esas necesidades
 
 # 3. Análisis de una solicitud HTTP
 
@@ -116,12 +117,12 @@ Identifique la información solicitada a continuación.
 
   Elemento              Resultado
   --------------------- -----------
-  URL                   
-  Método HTTP           
-  Código de estado      
-  Host / dominio        
-  Tipo de recurso       
-  Tiempo de respuesta   
+  URL                 : https://www.itm.edu.co/formatos-institucionales/           
+  Método HTTP         : GET
+  Código de estado    : 200 - OK
+  Host / dominio      : 172.30.0.47:443
+  Tipo de recurso     : DOC
+  Tiempo de respuesta : 1ms
 
 ## Flujo que se está observando
 
@@ -151,14 +152,12 @@ Inclúyala en el informe:
 
 **¿Qué recurso solicitó el navegador?**
 
-> Escriba aquí su respuesta.
+> formatos-institucionales/
 
 **¿Qué información permite determinar si la solicitud fue atendida
 correctamente?**
 
-> Escriba aquí su respuesta.
-
-------------------------------------------------------------------------
+> El código de estado, en este caso código 200, nos dice la la solicitud fue completada correctamente
 
 # 4. Inspección del DOM
 
@@ -181,13 +180,13 @@ Utilizando **Elementos / Elements**:
 
 ## Resultados
 
-**Elemento seleccionado:** `____________________________`
+**Elemento seleccionado:** 'Botón de descargar`
 
-**Etiqueta HTML:** `____________________________`
+**Etiqueta HTML:** `<a class="nd_options_first_font nd_options_display_inline_block " style="border-radius: 5px; border: solid rgb(92, 0, 173); background-color: rgb(92, 0, 173); padding: 8px 12px; color: rgb(255, 255, 255); font-size: 16px;" rel="nofollow" target="_blank" href="https://www.itm.edu.co/wp-content/uploads/formatos/logos2026.zip" data-wahpro-txt-style="border-radius: 5px; border: solid rgb(92, 0, 173); background-color: rgb(92, 0, 173); padding: 8px 12px; color: rgb(255, 255, 255); font-size: 16px;">Descargar</a>`
 
-**Contenido original:** `____________________________`
+**Contenido original:** `Boton con la palabra descargar`
 
-**Modificación realizada:** `____________________________`
+**Modificación realizada:** `Cambio de palabra "descargar" por "download"`
 
 El proceso observado puede representarse conceptualmente así:
 
