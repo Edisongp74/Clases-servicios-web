@@ -120,7 +120,7 @@ Identifique la información solicitada a continuación.
   URL                 : https://www.itm.edu.co/formatos-institucionales/           
   Método HTTP         : GET
   Código de estado    : 200 - OK
-  Host / dominio      : 172.30.0.47:443
+  Host / dominio      : www.itm.edu.co
   Tipo de recurso     : DOC
   Tiempo de respuesta : 1ms
 
@@ -217,7 +217,8 @@ Inclúyala aquí:
 **¿La modificación realizada sobre el DOM alteró permanentemente la
 aplicación o los archivos almacenados en el servidor? Justifique.**
 
-> Escriba aquí su respuesta.
+> No fue un cambio permanente, al recargar la página volverá a su contenido original ya que trae directamente la información del servidor
+> y al cambiar el dom fue un cambio local en una solicitud/recurso.
 
 ------------------------------------------------------------------------
 
@@ -240,12 +241,12 @@ Observe si aparece una nueva solicitud en Network.
 
   Elemento                       Resultado
   ------------------------------ -----------
-  Acción realizada               
-  ¿Generó una nueva solicitud?   
-  URL solicitada                 
-  Método HTTP                    
-  Código de estado               
-  Tipo de respuesta              
+  Acción realizada                Seleccionar/abrir la opción **“Logos ITM”**
+  ¿Generó una nueva solicitud?    Sí
+  URL solicitada                  https://www.facebook.com/tr/
+  Método HTTP                     POST
+  Código de estado                200
+  Tipo de respuesta               Doc
 
 ## Ciclo de interacción
 
@@ -278,10 +279,8 @@ Inclúyala aquí:
 
 ### Análisis
 
-**Explique la relación entre la acción realizada por el usuario y la
-solicitud observada.**
-
-> Escriba aquí su respuesta.
+> Al hacer click en el boton de "Logos ITM" se generó una nueva solicitud HTTP al servidor y al final se realizo 
+correctamente mostrando el POST y el codigo de estadp 200 (OK)
 
 ------------------------------------------------------------------------
 
@@ -302,7 +301,16 @@ Reemplace el siguiente bloque con su diagrama:
 
 ``` mermaid
 flowchart LR
-    A[Construya aquí] --> B[su flujo observado]
+    U[Usuario] -->|Selecciona / abre "Logos ITM"| N[Navegador]
+    N -->|Procesa la interacción| J[JavaScript]
+    J -->|POST| S[Solicitud HTTP]
+    S -->|https://www.facebook.com/tr/| SV[Servidor]
+    SV -->|200 OK| R[Respuesta HTTP]
+    R --> JS
+    J -->|Actualiza el contenido| D[DOM]
+    D --> I[Interfaz actualizada]
+    I --> Usuario
+
 ```
 
 ------------------------------------------------------------------------
@@ -316,15 +324,15 @@ Clasifique sus hallazgos:
 
 ## Elementos observados directamente
 
--   
--   
--   
+-   La interacción del usuario al seleccionar/abrir “Logos ITM”
+-   Se generó una solicitud HTTP POST hacia https://www.facebook.com/tr/
+-   La solicitud recibió un código de estado 200 OK y fue identificada como tipo doc
 
 ## Elementos inferidos
 
--   
--   
--   
+-   JavaScript hizo un procesamiento interno al momento de la interaccion
+-   El servidor recibio la solicitud y devolvió una respuesta mediante HTTP
+-   La pagina tuvo comunicacion con servidores externos
 
 > No presente como observado un proceso interno que las herramientas del
 > navegador no permitan comprobar directamente.
@@ -335,9 +343,9 @@ Clasifique sus hallazgos:
 
 Redacte **tres conclusiones técnicas** derivadas de la práctica.
 
-1.  
-2.  
-3.  
+1.  Al inspeccionar una pagina y utilizar la herramienta Network se puede ver de manera directa las solicitudes y comunicaciones HTTP que una pagina ulitiza antes las solicitudes que haga el usuario
+2.  Se pueden comprobar los codigos de estado y ver como funcionan
+3.  Fue posible identificar las solicitudes concretas y las que se infieren como procesos internos
 
 Las conclusiones deben explicar lo aprendido a partir de la evidencia y
 no limitarse a describir las actividades realizadas.
