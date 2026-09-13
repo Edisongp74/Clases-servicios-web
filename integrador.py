@@ -27,26 +27,81 @@ def enviar_medicion(medicion):
         "X-Equipo": EQUIPO,
     }
 
-    try:
-        respuesta = requests.post(
-            URL_MEDICIONES,
-            headers=headers,
-            json=medicion,
-            timeout=TIMEOUT,
-        )
+    max_intentos = 3
 
+    for intento in range(1, max_intentos + 1):
         try:
-            contenido = respuesta.json()
-        except ValueError:
-            contenido = respuesta.text
+            respuesta = requests.post(
+                URL_MEDICIONES,
+                headers=headers,
+                json=medicion,
+                timeout=TIMEOUT,
+            )
 
-        return respuesta.status_code, contenido
+            try:
+                contenido = respuesta.json()
+            except ValueError:
+                contenido = respuesta.text
 
-    except requests.exceptions.Timeout:
-        return None, "Timeout"
+            # Los errores 4xx no se reintentan.
+            if 400 <= respuesta.status_code < 500:
+                return {
+                    "codigo_http": respuesta.status_code,
+                    "estado": "rechazado_api",
+                    "respuesta": contenido,
+                    "intentos": intento,
+                }
 
-    except requests.exceptions.RequestException as error:
-        return None, f"Error de comunicación: {error}"
+            # Los errores 5xx pueden reintentarse.
+            if 500 <= respuesta.status_code <= 599:
+                if intento < max_intentos:
+                    continue
+
+                return {
+                    "codigo_http": respuesta.status_code,
+                    "estado": "error_comunicacion",
+                    "respuesta": contenido,
+                    "intentos": intento,
+                }
+
+            # Respuestas 2xx: registro aceptado.
+            if 200 <= respuesta.status_code < 300:
+                return {
+                    "codigo_http": respuesta.status_code,
+                    "estado": "aceptado_api",
+                    "respuesta": contenido,
+                    "intentos": intento,
+                }
+
+            # Código HTTP no contemplado.
+            return {
+                "codigo_http": respuesta.status_code,
+                "estado": "respuesta_inesperada",
+                "respuesta": contenido,
+                "intentos": intento,
+            }
+
+        except (
+            requests.exceptions.Timeout,
+            requests.exceptions.ConnectionError,
+        ) as error:
+            if intento < max_intentos:
+                continue
+
+            return {
+                "codigo_http": None,
+                "estado": "error_comunicacion",
+                "respuesta": str(error),
+                "intentos": intento,
+            }
+
+        except requests.exceptions.RequestException as error:
+            return {
+                "codigo_http": None,
+                "estado": "error_comunicacion",
+                "respuesta": str(error),
+                "intentos": intento,
+            }
 
 
 def leer_proveedor_a():
@@ -110,7 +165,9 @@ def normalizar_proveedor_b(registro):
             "temperatura_c": float(registro["temp_celsius"]),
             "humedad": float(registro["humidity_pct"]),
             "viento_kmh": float(registro["wind_kmh"]),
-            "fecha_hora": normalizar_fecha_b(registro["measurement_time"]),
+            "fecha_hora": normalizar_fecha_b(
+                registro["measurement_time"]
+            ),
             "origen": "proveedor_b",
         }
 
@@ -123,7 +180,10 @@ def normalizar_registros(registros_a, registros_b):
     errores_normalizacion = []
 
     for registro in registros_a:
-        trazabilidad = registro.get("provider_record_id", "sin_id")
+        trazabilidad = registro.get(
+            "provider_record_id",
+            "sin_id",
+        )
 
         try:
             normalizado = normalizar_proveedor_a(registro)
@@ -146,7 +206,10 @@ def normalizar_registros(registros_a, registros_b):
             )
 
     for registro in registros_b:
-        trazabilidad = registro.get("record_code", "sin_id")
+        trazabilidad = registro.get(
+            "record_code",
+            "sin_id",
+        )
 
         try:
             normalizado = normalizar_proveedor_b(registro)
@@ -197,7 +260,10 @@ def validar_medicion(medicion):
     except (TypeError, ValueError):
         errores.append("fecha_hora inválida")
 
-    if medicion["origen"] not in {"proveedor_a", "proveedor_b"}:
+    if medicion["origen"] not in {
+        "proveedor_a",
+        "proveedor_b",
+    }:
         errores.append("origen no permitido")
 
     return errores
@@ -208,7 +274,9 @@ def validar_registros(normalizadas):
     rechazados_localmente = []
 
     for registro in normalizadas:
-        errores = validar_medicion(registro["medicion"])
+        errores = validar_medicion(
+            registro["medicion"]
+        )
 
         if errores:
             rechazados_localmente.append(
@@ -226,7 +294,9 @@ def validar_registros(normalizadas):
 
 
 def guardar_normalizadas(registros):
-    archivo_salida = SALIDA_DIR / "normalizadas.json"
+    archivo_salida = (
+        SALIDA_DIR / "normalizadas.json"
+    )
 
     datos = []
 
@@ -238,43 +308,92 @@ def guardar_normalizadas(registros):
             }
         )
 
-    with open(archivo_salida, "w", encoding="utf-8") as archivo:
-        json.dump(datos, archivo, ensure_ascii=False, indent=2)
+    with open(
+        archivo_salida,
+        "w",
+        encoding="utf-8",
+    ) as archivo:
+        json.dump(
+            datos,
+            archivo,
+            ensure_ascii=False,
+            indent=2,
+        )
 
 
 def main():
     registros_a = leer_proveedor_a()
     registros_b = leer_proveedor_b()
 
-    total_procesados = len(registros_a) + len(registros_b)
-
-    normalizadas, errores_normalizacion = normalizar_registros(
-        registros_a, registros_b
+    total_procesados = (
+        len(registros_a) + len(registros_b)
     )
 
-    validos, rechazados_localmente = validar_registros(normalizadas)
+    normalizadas, errores_normalizacion = (
+        normalizar_registros(
+            registros_a,
+            registros_b,
+        )
+    )
 
+    validos, rechazados_localmente = validar_registros(
+        normalizadas
+    )
+
+    # Prueba de envío de un solo registro válido.
     if validos:
-        registro_prueba = validos[0]
+        registro_prueba = validos[1]
 
-        codigo, respuesta = enviar_medicion(registro_prueba["medicion"])
+        resultado = enviar_medicion(
+            registro_prueba["medicion"]
+        )
 
         print()
         print("Prueba de envío HTTP:")
-        print(f"Registro: {registro_prueba['trazabilidad']}")
-        print(f"Código HTTP: {codigo}")
-        print(f"Respuesta: {respuesta}")
+        print(
+            f"Registro: {registro_prueba['trazabilidad']}"
+        )
+        print(
+            f"Código HTTP: {resultado['codigo_http']}"
+        )
+        print(
+            f"Estado: {resultado['estado']}"
+        )
+        print(
+            f"Intentos: {resultado['intentos']}"
+        )
+        print(
+            f"Respuesta: {resultado['respuesta']}"
+        )
 
     guardar_normalizadas(normalizadas)
 
     print()
-    print(f"Proveedor A: {len(registros_a)} registros")
-    print(f"Proveedor B: {len(registros_b)} registros")
-    print(f"Total procesados: {total_procesados}")
-    print(f"Registros normalizados: {len(normalizadas)}")
-    print(f"Errores de normalización: {len(errores_normalizacion)}")
-    print(f"Válidos localmente: {len(validos)}")
-    print(f"Rechazados localmente: {len(rechazados_localmente)}")
+    print(
+        f"Proveedor A: {len(registros_a)} registros"
+    )
+    print(
+        f"Proveedor B: {len(registros_b)} registros"
+    )
+    print(
+        f"Total procesados: {total_procesados}"
+    )
+    print(
+        f"Registros normalizados: "
+        f"{len(normalizadas)}"
+    )
+    print(
+        f"Errores de normalización: "
+        f"{len(errores_normalizacion)}"
+    )
+    print(
+        f"Válidos localmente: "
+        f"{len(validos)}"
+    )
+    print(
+        f"Rechazados localmente: "
+        f"{len(rechazados_localmente)}"
+    )
 
     print()
     print("Rechazados localmente:")
@@ -288,9 +407,10 @@ def main():
 
     print()
     print("Archivo generado:")
-    print(SALIDA_DIR / "normalizadas.json")
+    print(
+        SALIDA_DIR / "normalizadas.json"
+    )
 
 
 if __name__ == "__main__":
     main()
-    
