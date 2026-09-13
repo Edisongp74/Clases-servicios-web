@@ -3,6 +3,8 @@ import json
 from datetime import datetime
 from pathlib import Path
 
+import requests
+
 
 BASE_DIR = Path(__file__).resolve().parent
 DATOS_DIR = BASE_DIR / "datos"
@@ -11,7 +13,40 @@ SALIDA_DIR = BASE_DIR / "salida"
 PROVEEDOR_A = DATOS_DIR / "proveedor_a.json"
 PROVEEDOR_B = DATOS_DIR / "proveedor_b.csv"
 
+URL_BASE = "https://appsweb.quantaiot.co"
+EQUIPO = "EQUIPO-10-APPSWEB"
+URL_MEDICIONES = f"{URL_BASE}/api/v1/mediciones"
+TIMEOUT = 10
+
 SALIDA_DIR.mkdir(exist_ok=True)
+
+
+def enviar_medicion(medicion):
+    headers = {
+        "Content-Type": "application/json",
+        "X-Equipo": EQUIPO,
+    }
+
+    try:
+        respuesta = requests.post(
+            URL_MEDICIONES,
+            headers=headers,
+            json=medicion,
+            timeout=TIMEOUT,
+        )
+
+        try:
+            contenido = respuesta.json()
+        except ValueError:
+            contenido = respuesta.text
+
+        return respuesta.status_code, contenido
+
+    except requests.exceptions.Timeout:
+        return None, "Timeout"
+
+    except requests.exceptions.RequestException as error:
+        return None, f"Error de comunicación: {error}"
 
 
 def leer_proveedor_a():
@@ -219,8 +254,20 @@ def main():
 
     validos, rechazados_localmente = validar_registros(normalizadas)
 
+    if validos:
+        registro_prueba = validos[0]
+
+        codigo, respuesta = enviar_medicion(registro_prueba["medicion"])
+
+        print()
+        print("Prueba de envío HTTP:")
+        print(f"Registro: {registro_prueba['trazabilidad']}")
+        print(f"Código HTTP: {codigo}")
+        print(f"Respuesta: {respuesta}")
+
     guardar_normalizadas(normalizadas)
 
+    print()
     print(f"Proveedor A: {len(registros_a)} registros")
     print(f"Proveedor B: {len(registros_b)} registros")
     print(f"Total procesados: {total_procesados}")
@@ -228,6 +275,7 @@ def main():
     print(f"Errores de normalización: {len(errores_normalizacion)}")
     print(f"Válidos localmente: {len(validos)}")
     print(f"Rechazados localmente: {len(rechazados_localmente)}")
+
     print()
     print("Rechazados localmente:")
 
@@ -245,3 +293,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
