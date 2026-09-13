@@ -92,7 +92,14 @@ def normalizar_registros(registros_a, registros_b):
 
         try:
             normalizado = normalizar_proveedor_a(registro)
-            normalizadas.append(normalizado)
+
+            normalizadas.append(
+                {
+                    "trazabilidad": trazabilidad,
+                    "medicion": normalizado,
+                }
+            )
+
         except ValueError as error:
             errores_normalizacion.append(
                 {
@@ -108,7 +115,14 @@ def normalizar_registros(registros_a, registros_b):
 
         try:
             normalizado = normalizar_proveedor_b(registro)
-            normalizadas.append(normalizado)
+
+            normalizadas.append(
+                {
+                    "trazabilidad": trazabilidad,
+                    "medicion": normalizado,
+                }
+            )
+
         except ValueError as error:
             errores_normalizacion.append(
                 {
@@ -122,11 +136,67 @@ def normalizar_registros(registros_a, registros_b):
     return normalizadas, errores_normalizacion
 
 
+def validar_medicion(medicion):
+    errores = []
+
+    if not medicion["ciudad"].strip():
+        errores.append("ciudad vacía")
+
+    if not medicion["pais"].strip():
+        errores.append("pais vacío")
+
+    if not -90 <= medicion["latitud"] <= 90:
+        errores.append("latitud fuera de rango")
+
+    if not -180 <= medicion["longitud"] <= 180:
+        errores.append("longitud fuera de rango")
+
+    if not 0 <= medicion["humedad"] <= 100:
+        errores.append("humedad fuera de rango")
+
+    if medicion["viento_kmh"] < 0:
+        errores.append("viento negativo")
+
+    try:
+        datetime.fromisoformat(medicion["fecha_hora"])
+    except (TypeError, ValueError):
+        errores.append("fecha_hora inválida")
+
+    if medicion["origen"] not in {"proveedor_a", "proveedor_b"}:
+        errores.append("origen no permitido")
+
+    return errores
+
+
+def validar_registros(normalizadas):
+    validos = []
+    rechazados_localmente = []
+
+    for registro in normalizadas:
+        errores = validar_medicion(registro["medicion"])
+
+        if errores:
+            rechazados_localmente.append(
+                {
+                    "trazabilidad": registro["trazabilidad"],
+                    "origen": registro["medicion"]["origen"],
+                    "tipo": "rechazado_localmente",
+                    "detalle": errores,
+                }
+            )
+        else:
+            validos.append(registro)
+
+    return validos, rechazados_localmente
+
+
 def guardar_normalizadas(registros):
     archivo_salida = SALIDA_DIR / "normalizadas.json"
 
+    datos = [registro["medicion"] for registro in registros]
+
     with open(archivo_salida, "w", encoding="utf-8") as archivo:
-        json.dump(registros, archivo, ensure_ascii=False, indent=2)
+        json.dump(datos, archivo, ensure_ascii=False, indent=2)
 
 
 def main():
@@ -139,6 +209,8 @@ def main():
         registros_a, registros_b
     )
 
+    validos, rechazados_localmente = validar_registros(normalizadas)
+
     guardar_normalizadas(normalizadas)
 
     print(f"Proveedor A: {len(registros_a)} registros")
@@ -146,13 +218,16 @@ def main():
     print(f"Total procesados: {total_procesados}")
     print(f"Registros normalizados: {len(normalizadas)}")
     print(f"Errores de normalización: {len(errores_normalizacion)}")
+    print(f"Válidos localmente: {len(validos)}")
+    print(f"Rechazados localmente: {len(rechazados_localmente)}")
     print()
-    print("Errores encontrados:")
+    print("Rechazados localmente:")
 
-    for error in errores_normalizacion:
+    for registro in rechazados_localmente:
         print(
-            f"- {error['trazabilidad']} "
-            f"({error['origen']}): {error['detalle']}"
+            f"- {registro['trazabilidad']} "
+            f"({registro['origen']}): "
+            f"{', '.join(registro['detalle'])}"
         )
 
     print()
