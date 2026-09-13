@@ -1,5 +1,6 @@
 [
   {
+    "trazabilidad": "A-0001",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.242282,
@@ -11,6 +12,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0002",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.24089,
@@ -22,6 +24,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0003",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.478985,
@@ -33,6 +36,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0004",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.689884,
@@ -44,6 +48,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0005",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.263611,
@@ -55,6 +60,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0006",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.263473,
@@ -66,6 +72,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0007",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.390843,
@@ -77,6 +84,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0008",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.446973,
@@ -88,6 +96,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0009",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.395305,
@@ -99,6 +108,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0010",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.42462,
@@ -110,6 +120,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0011",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.991168,
@@ -121,6 +132,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0012",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.93704,
@@ -132,6 +144,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0013",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.428253,
@@ -143,6 +156,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0014",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.38505,
@@ -154,6 +168,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0015",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.969955,
@@ -165,6 +180,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0016",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.979715,
@@ -176,6 +192,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0017",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.25171,
@@ -187,6 +204,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0018",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.707947,
@@ -198,6 +216,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0019",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 11.001982,
@@ -209,6 +228,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0020",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.724563,
@@ -220,6 +240,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0021",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.470484,
@@ -231,6 +252,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0022",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.939851,
@@ -242,6 +264,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0023",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.994137,
@@ -253,6 +276,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0024",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.715838,
@@ -264,6 +288,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0025",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.388873,
@@ -275,6 +300,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0026",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.721268,
@@ -286,6 +312,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0027",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.989931,
@@ -297,6 +324,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0028",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.485191,
@@ -308,6 +336,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0029",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.373722,
@@ -319,6 +348,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0030",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.727732,
@@ -330,6 +360,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0031",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 95.245,
@@ -341,6 +372,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0032",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.978111,
@@ -352,6 +384,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0033",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.366127,
@@ -363,6 +396,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0034",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.237118,
@@ -374,6 +408,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0035",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.958664,
@@ -385,6 +420,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0036",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.971338,
@@ -396,6 +432,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0037",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.410702,
@@ -407,6 +444,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0038",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.233371,
@@ -418,6 +456,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0039",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.27179,
@@ -429,6 +468,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0041",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.940162,
@@ -440,6 +480,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0042",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.264381,
@@ -451,6 +492,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0043",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.211541,
@@ -462,6 +504,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0044",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.988991,
@@ -473,6 +516,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0045",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.432141,
@@ -484,6 +528,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0046",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.994996,
@@ -495,6 +540,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0047",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.482025,
@@ -506,6 +552,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0048",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.697935,
@@ -517,6 +564,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0049",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.719695,
@@ -528,6 +576,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0050",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.454373,
@@ -539,6 +588,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0051",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.411125,
@@ -550,6 +600,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0052",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.364442,
@@ -561,6 +612,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0053",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.230519,
@@ -572,6 +624,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0054",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.361914,
@@ -583,6 +636,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0055",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.250044,
@@ -594,6 +648,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0056",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.357598,
@@ -605,6 +660,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0057",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.735595,
@@ -616,6 +672,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0058",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.257244,
@@ -627,6 +684,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0059",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.967969,
@@ -638,6 +696,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0060",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.721328,
@@ -649,6 +708,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0061",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 11.003012,
@@ -660,6 +720,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0062",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.692139,
@@ -671,6 +732,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0063",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.960074,
@@ -682,6 +744,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0064",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.37523,
@@ -693,6 +756,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0065",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.955931,
@@ -704,6 +768,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0066",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.956731,
@@ -715,6 +780,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0067",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.683868,
@@ -726,6 +792,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0068",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.682693,
@@ -737,6 +804,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0069",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.247402,
@@ -748,6 +816,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0070",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.713615,
@@ -759,6 +828,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0071",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.745787,
@@ -770,6 +840,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0072",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.458938,
@@ -781,6 +852,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0073",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.482465,
@@ -792,6 +864,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0074",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.728116,
@@ -803,6 +876,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0075",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.73455,
@@ -814,6 +888,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0076",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.222722,
@@ -825,6 +900,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0077",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.477192,
@@ -836,6 +912,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0078",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.262278,
@@ -847,6 +924,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0079",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.264253,
@@ -858,6 +936,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0080",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.718732,
@@ -869,6 +948,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0081",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.273318,
@@ -880,6 +960,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0083",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.463862,
@@ -891,6 +972,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0084",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.248413,
@@ -902,6 +984,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0085",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.993794,
@@ -913,6 +996,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0086",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.959161,
@@ -924,6 +1008,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0087",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.44596,
@@ -935,6 +1020,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0088",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.722662,
@@ -946,6 +1032,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0089",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.745479,
@@ -957,6 +1044,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0090",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.223375,
@@ -968,6 +1056,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0091",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.692325,
@@ -979,6 +1068,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0092",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.235675,
@@ -990,6 +1080,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0093",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.935937,
@@ -1001,6 +1092,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0094",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.4717,
@@ -1012,6 +1104,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0095",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.266563,
@@ -1023,6 +1116,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0096",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.212333,
@@ -1034,6 +1128,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0097",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.26735,
@@ -1045,6 +1140,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0098",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.247136,
@@ -1056,6 +1152,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0099",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.383402,
@@ -1067,6 +1164,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0100",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.485531,
@@ -1078,6 +1176,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0101",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.713685,
@@ -1089,6 +1188,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0102",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.957536,
@@ -1100,6 +1200,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0103",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.471387,
@@ -1111,6 +1212,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0104",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.396356,
@@ -1122,6 +1224,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0105",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.263513,
@@ -1133,6 +1236,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0106",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.949735,
@@ -1144,6 +1248,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0107",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.404031,
@@ -1155,6 +1260,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0108",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.218128,
@@ -1166,6 +1272,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0109",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.436789,
@@ -1177,6 +1284,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0110",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.390106,
@@ -1188,6 +1296,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0111",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.97859,
@@ -1199,6 +1308,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0112",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.687426,
@@ -1210,6 +1320,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0113",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.229562,
@@ -1221,6 +1332,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0114",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.370746,
@@ -1232,6 +1344,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0115",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.970347,
@@ -1243,6 +1356,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0116",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.486547,
@@ -1254,6 +1368,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0117",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.723585,
@@ -1265,6 +1380,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0118",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.968868,
@@ -1276,6 +1392,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0119",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.477031,
@@ -1287,6 +1404,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0120",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.389992,
@@ -1298,6 +1416,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0121",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.681356,
@@ -1309,6 +1428,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0122",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.420022,
@@ -1320,6 +1440,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0123",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.269357,
@@ -1331,6 +1452,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0124",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.232818,
@@ -1342,6 +1464,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0125",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.981767,
@@ -1353,6 +1476,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0126",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.382828,
@@ -1364,6 +1488,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0127",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.365675,
@@ -1375,6 +1500,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0128",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.357388,
@@ -1386,6 +1512,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0129",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.481406,
@@ -1397,6 +1524,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0130",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.40744,
@@ -1408,6 +1536,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0131",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.435438,
@@ -1419,6 +1548,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0132",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.967257,
@@ -1430,6 +1560,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0133",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.383144,
@@ -1441,6 +1572,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0134",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.718172,
@@ -1452,6 +1584,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0135",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.235918,
@@ -1463,6 +1596,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0136",
     "ciudad": "",
     "pais": "CO",
     "latitud": 4.714573,
@@ -1474,6 +1608,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0137",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.464988,
@@ -1485,6 +1620,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0138",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.387364,
@@ -1496,6 +1632,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0139",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.996126,
@@ -1507,6 +1644,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0140",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.247427,
@@ -1518,6 +1656,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0141",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.397132,
@@ -1529,6 +1668,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0142",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.951739,
@@ -1540,6 +1680,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0143",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.255416,
@@ -1551,6 +1692,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0144",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.698673,
@@ -1562,6 +1704,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0145",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.440095,
@@ -1573,6 +1716,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0146",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.42541,
@@ -1584,6 +1728,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0147",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.483429,
@@ -1595,6 +1740,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0148",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.425305,
@@ -1606,6 +1752,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0149",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.985143,
@@ -1617,6 +1764,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0151",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.232717,
@@ -1628,6 +1776,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0152",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.960839,
@@ -1639,6 +1788,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0153",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.697141,
@@ -1650,6 +1800,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0154",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.421595,
@@ -1661,6 +1812,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0155",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.240985,
@@ -1672,6 +1824,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0156",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.45355,
@@ -1683,6 +1836,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0157",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.253659,
@@ -1694,6 +1848,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0158",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.212927,
@@ -1705,6 +1860,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0159",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.417804,
@@ -1716,6 +1872,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0160",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.71935,
@@ -1727,6 +1884,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0161",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.235507,
@@ -1738,6 +1896,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0162",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.264826,
@@ -1749,6 +1908,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0163",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.359257,
@@ -1760,6 +1920,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0164",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.39885,
@@ -1771,6 +1932,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0165",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.256158,
@@ -1782,6 +1944,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0166",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.466006,
@@ -1793,6 +1956,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0167",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.240943,
@@ -1804,6 +1968,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0168",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.97399,
@@ -1815,6 +1980,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0169",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.691571,
@@ -1826,6 +1992,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0170",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.715343,
@@ -1837,6 +2004,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0171",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.724025,
@@ -1848,6 +2016,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0172",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.232292,
@@ -1859,6 +2028,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0175",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.475479,
@@ -1870,6 +2040,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0176",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.412584,
@@ -1881,6 +2052,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0177",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.433823,
@@ -1892,6 +2064,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0178",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.215213,
@@ -1903,6 +2076,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0179",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.223014,
@@ -1914,6 +2088,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0180",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.461725,
@@ -1925,6 +2100,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0181",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.941978,
@@ -1936,6 +2112,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0182",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.41218,
@@ -1947,6 +2124,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0183",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.383624,
@@ -1958,6 +2136,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0184",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.361845,
@@ -1969,6 +2148,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0185",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.707059,
@@ -1980,6 +2160,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0186",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.216217,
@@ -1991,6 +2172,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0187",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.70482,
@@ -2002,6 +2184,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0188",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.939204,
@@ -2013,6 +2196,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0189",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.47573,
@@ -2024,6 +2208,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0190",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.438267,
@@ -2035,6 +2220,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0191",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.707242,
@@ -2046,6 +2232,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0192",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.232287,
@@ -2057,6 +2244,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0193",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.239087,
@@ -2068,6 +2256,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0194",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.479097,
@@ -2079,6 +2268,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0195",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.258573,
@@ -2090,6 +2280,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0196",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.41658,
@@ -2101,6 +2292,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0197",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.698228,
@@ -2112,6 +2304,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0198",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.384184,
@@ -2123,6 +2316,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0199",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.418775,
@@ -2134,6 +2328,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "A-0200",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.993677,
@@ -2145,6 +2340,7 @@
     "origen": "proveedor_a"
   },
   {
+    "trazabilidad": "B-0001",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.26152,
@@ -2156,6 +2352,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0002",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.259724,
@@ -2167,6 +2364,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0003",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.458315,
@@ -2178,6 +2376,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0004",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.258034,
@@ -2189,6 +2388,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0005",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.412852,
@@ -2200,6 +2400,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0006",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": -94.22,
@@ -2211,6 +2412,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0007",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.690298,
@@ -2222,6 +2424,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0008",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.421381,
@@ -2233,6 +2436,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0009",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.472458,
@@ -2244,6 +2448,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0010",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.376243,
@@ -2255,6 +2460,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0011",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.951596,
@@ -2266,6 +2472,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0012",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.674047,
@@ -2277,6 +2484,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0013",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.488564,
@@ -2288,6 +2496,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0014",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.452647,
@@ -2299,6 +2508,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0015",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.35485,
@@ -2310,6 +2520,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0016",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.679679,
@@ -2321,6 +2532,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0017",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.379516,
@@ -2332,6 +2544,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0018",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.442151,
@@ -2343,6 +2556,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0019",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.242308,
@@ -2354,6 +2568,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0020",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.693355,
@@ -2365,6 +2580,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0021",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.488809,
@@ -2376,6 +2592,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0022",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.482259,
@@ -2387,6 +2604,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0023",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.681228,
@@ -2398,6 +2616,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0024",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.228517,
@@ -2409,6 +2628,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0025",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.488253,
@@ -2420,6 +2640,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0026",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.477995,
@@ -2431,6 +2652,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0027",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.940341,
@@ -2442,6 +2664,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0028",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.956573,
@@ -2453,6 +2676,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0029",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.719313,
@@ -2464,6 +2688,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0030",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.424935,
@@ -2475,6 +2700,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0031",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.721534,
@@ -2486,6 +2712,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0032",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.222528,
@@ -2497,6 +2724,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0033",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.947497,
@@ -2508,6 +2736,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0034",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.361387,
@@ -2519,6 +2748,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0035",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.454469,
@@ -2530,6 +2760,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0036",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.423571,
@@ -2541,6 +2772,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0037",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.673981,
@@ -2552,6 +2784,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0038",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.960523,
@@ -2563,6 +2796,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0039",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.207784,
@@ -2574,6 +2808,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0040",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.691596,
@@ -2585,6 +2820,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0041",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.999006,
@@ -2596,6 +2832,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0042",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.239076,
@@ -2607,6 +2844,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0043",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.420711,
@@ -2618,6 +2856,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0044",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.227467,
@@ -2629,6 +2868,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0045",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.734584,
@@ -2640,6 +2880,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0046",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.421468,
@@ -2651,6 +2892,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0047",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.388934,
@@ -2662,6 +2904,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0048",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.399067,
@@ -2673,6 +2916,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0049",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.718569,
@@ -2684,6 +2928,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0050",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.266918,
@@ -2695,6 +2940,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0051",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.735736,
@@ -2706,6 +2952,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0052",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.420277,
@@ -2717,6 +2964,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0053",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.672571,
@@ -2728,6 +2976,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0054",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.705054,
@@ -2739,6 +2988,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0055",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.452124,
@@ -2750,6 +3000,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0056",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.978272,
@@ -2761,6 +3012,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0057",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.681792,
@@ -2772,6 +3024,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0058",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.396174,
@@ -2783,6 +3036,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0059",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.458873,
@@ -2794,6 +3048,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0060",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.386527,
@@ -2805,6 +3060,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0061",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.37373,
@@ -2816,6 +3072,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0062",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.978277,
@@ -2827,6 +3084,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0063",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 11.007346,
@@ -2838,6 +3096,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0064",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 11.000289,
@@ -2849,6 +3108,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0065",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.482316,
@@ -2860,6 +3120,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0066",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.484708,
@@ -2871,6 +3132,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0067",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.694926,
@@ -2882,6 +3144,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0068",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.997748,
@@ -2893,6 +3156,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0069",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.280965,
@@ -2904,6 +3168,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0070",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.416115,
@@ -2915,6 +3180,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0071",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.254774,
@@ -2926,6 +3192,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0072",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.977262,
@@ -2937,6 +3204,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0073",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.695098,
@@ -2948,6 +3216,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0074",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.225608,
@@ -2959,6 +3228,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0075",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.44217,
@@ -2970,6 +3240,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0077",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.242631,
@@ -2981,6 +3252,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0078",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.2253,
@@ -2992,6 +3264,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0079",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.364258,
@@ -3003,6 +3276,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0080",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.399609,
@@ -3014,6 +3288,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0081",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.25469,
@@ -3025,6 +3300,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0082",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.248689,
@@ -3036,6 +3312,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0083",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.982599,
@@ -3047,6 +3324,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0084",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.279666,
@@ -3058,6 +3336,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0085",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.683692,
@@ -3069,6 +3348,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0086",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.448502,
@@ -3080,6 +3360,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0087",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.215959,
@@ -3091,6 +3372,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0088",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.745321,
@@ -3102,6 +3384,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0089",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.9675,
@@ -3113,6 +3396,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0090",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.984349,
@@ -3124,6 +3408,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0091",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.41752,
@@ -3135,6 +3420,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0092",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.727319,
@@ -3146,6 +3432,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0093",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.247925,
@@ -3157,6 +3444,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0094",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.949548,
@@ -3168,6 +3456,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0095",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.239856,
@@ -3179,6 +3468,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0096",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.351098,
@@ -3190,6 +3480,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0097",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.358681,
@@ -3201,6 +3492,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0098",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.387985,
@@ -3212,6 +3504,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0099",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.449948,
@@ -3223,6 +3516,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0100",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.242826,
@@ -3234,6 +3528,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0101",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.940769,
@@ -3245,6 +3540,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0102",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.430216,
@@ -3256,6 +3552,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0103",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.686344,
@@ -3267,6 +3564,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0104",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.707056,
@@ -3278,6 +3576,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0105",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.281217,
@@ -3289,6 +3588,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0106",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.278569,
@@ -3300,6 +3600,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0107",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.380324,
@@ -3311,6 +3612,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0108",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.262534,
@@ -3322,6 +3624,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0109",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.992017,
@@ -3333,6 +3636,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0110",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.379532,
@@ -3344,6 +3648,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0111",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.413053,
@@ -3355,6 +3660,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0112",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.383222,
@@ -3366,6 +3672,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0113",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.398157,
@@ -3377,6 +3684,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0115",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.729888,
@@ -3388,6 +3696,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0116",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.376653,
@@ -3399,6 +3708,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0117",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.469638,
@@ -3410,6 +3720,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0118",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.231676,
@@ -3421,6 +3732,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0119",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.729774,
@@ -3432,6 +3744,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0120",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.241158,
@@ -3443,6 +3756,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0121",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.710435,
@@ -3454,6 +3768,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0122",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.706045,
@@ -3465,6 +3780,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0123",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.674518,
@@ -3476,6 +3792,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0124",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.420113,
@@ -3487,6 +3804,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0125",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.278292,
@@ -3498,6 +3816,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0126",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.677142,
@@ -3509,6 +3828,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0127",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.409409,
@@ -3520,6 +3840,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0128",
     "ciudad": "",
     "pais": "CO",
     "latitud": 10.956283,
@@ -3531,6 +3852,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0129",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.230733,
@@ -3542,6 +3864,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0130",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.270455,
@@ -3553,6 +3876,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0131",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.391717,
@@ -3564,6 +3888,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0132",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.73056,
@@ -3575,6 +3900,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0133",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.215123,
@@ -3586,6 +3912,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0134",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.456456,
@@ -3597,6 +3924,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0135",
     "ciudad": "Cartagena",
     "pais": "",
     "latitud": 10.429149,
@@ -3608,6 +3936,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0136",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.932311,
@@ -3619,6 +3948,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0137",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.449799,
@@ -3630,6 +3960,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0138",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.209846,
@@ -3641,6 +3972,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0139",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.963644,
@@ -3652,6 +3984,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0140",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.462843,
@@ -3663,6 +3996,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0141",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.690726,
@@ -3674,6 +4008,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0142",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.953856,
@@ -3685,6 +4020,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0143",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.710087,
@@ -3696,6 +4032,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0144",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.968612,
@@ -3707,6 +4044,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0145",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.41142,
@@ -3718,6 +4056,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0147",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.215223,
@@ -3729,6 +4068,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0148",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.229047,
@@ -3740,6 +4080,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0149",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.42224,
@@ -3751,6 +4092,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0150",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.257784,
@@ -3762,6 +4104,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0151",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.735771,
@@ -3773,6 +4116,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0152",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.691968,
@@ -3784,6 +4128,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0153",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.244615,
@@ -3795,6 +4140,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0154",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.440118,
@@ -3806,6 +4152,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0155",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.442221,
@@ -3817,6 +4164,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0156",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.970824,
@@ -3828,6 +4176,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0157",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.261739,
@@ -3839,6 +4188,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0158",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.485787,
@@ -3850,6 +4200,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0159",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.432827,
@@ -3861,6 +4212,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0160",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.726063,
@@ -3872,6 +4224,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0161",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.412324,
@@ -3883,6 +4236,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0162",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.958792,
@@ -3894,6 +4248,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0163",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.269748,
@@ -3905,6 +4260,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0164",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.244122,
@@ -3916,6 +4272,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0165",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.488147,
@@ -3927,6 +4284,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0166",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.958799,
@@ -3938,6 +4296,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0167",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.260506,
@@ -3949,6 +4308,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0168",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.748934,
@@ -3960,6 +4320,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0169",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.423021,
@@ -3971,6 +4332,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0170",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.741808,
@@ -3982,6 +4344,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0172",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.465125,
@@ -3993,6 +4356,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0173",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.734731,
@@ -4004,6 +4368,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0174",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.386076,
@@ -4015,6 +4380,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0175",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.417328,
@@ -4026,6 +4392,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0176",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.353531,
@@ -4037,6 +4404,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0177",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.722254,
@@ -4048,6 +4416,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0178",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.959621,
@@ -4059,6 +4428,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0179",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.673964,
@@ -4070,6 +4440,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0180",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.432854,
@@ -4081,6 +4452,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0181",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.435881,
@@ -4092,6 +4464,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0182",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.954365,
@@ -4103,6 +4476,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0183",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.420609,
@@ -4114,6 +4488,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0184",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.717568,
@@ -4125,6 +4500,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0185",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.272759,
@@ -4136,6 +4512,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0186",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.365103,
@@ -4147,6 +4524,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0187",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.42444,
@@ -4158,6 +4536,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0188",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.997897,
@@ -4169,6 +4548,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0189",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.465329,
@@ -4180,6 +4560,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0190",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.462974,
@@ -4191,6 +4572,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0191",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.261382,
@@ -4202,6 +4584,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0192",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.420659,
@@ -4213,6 +4596,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0193",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.73405,
@@ -4224,6 +4608,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0194",
     "ciudad": "Barranquilla",
     "pais": "CO",
     "latitud": 10.949407,
@@ -4235,6 +4620,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0195",
     "ciudad": "Cartagena",
     "pais": "CO",
     "latitud": 10.358538,
@@ -4246,6 +4632,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0196",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.723226,
@@ -4257,6 +4644,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0197",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.241213,
@@ -4268,6 +4656,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0198",
     "ciudad": "Bogota",
     "pais": "CO",
     "latitud": 4.731164,
@@ -4279,6 +4668,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0199",
     "ciudad": "Cali",
     "pais": "CO",
     "latitud": 3.485329,
@@ -4290,6 +4680,7 @@
     "origen": "proveedor_b"
   },
   {
+    "trazabilidad": "B-0200",
     "ciudad": "Medellin",
     "pais": "CO",
     "latitud": 6.261482,

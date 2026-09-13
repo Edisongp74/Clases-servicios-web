@@ -193,7 +193,15 @@ def validar_registros(normalizadas):
 def guardar_normalizadas(registros):
     archivo_salida = SALIDA_DIR / "normalizadas.json"
 
-    datos = [registro["medicion"] for registro in registros]
+    datos = []
+
+    for registro in registros:
+        datos.append(
+            {
+                "trazabilidad": registro["trazabilidad"],
+                **registro["medicion"],
+            }
+        )
 
     with open(archivo_salida, "w", encoding="utf-8") as archivo:
         json.dump(datos, archivo, ensure_ascii=False, indent=2)
