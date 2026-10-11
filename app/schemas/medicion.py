@@ -1,9 +1,10 @@
 
-from datetime import datetime
+from datetime import datetime, timezone
 from decimal import Decimal
 from typing import Annotated
+from zoneinfo import ZoneInfo
 
-from pydantic import BaseModel, ConfigDict, Field, field_validator
+from pydantic import BaseModel, ConfigDict, Field, field_validator, field_serializer
 
 
 class MeasurementInput(BaseModel):
@@ -32,3 +33,9 @@ class MedicionResponse(BaseModel):
     valor: Decimal
     timestamp_utc: datetime
     fecha_recepcion: datetime
+
+    @field_serializer("timestamp_utc", "fecha_recepcion")
+    def convertir_a_hora_colombia(self, value: datetime) -> datetime:
+        if value.tzinfo is None:
+            value = value.replace(tzinfo=timezone.utc)
+        return value.astimezone(ZoneInfo("America/Bogota"))
